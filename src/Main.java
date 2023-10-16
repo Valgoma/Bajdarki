@@ -16,6 +16,7 @@ public class Main {
         {
             array[i] = sc.nextInt();
         }
+        Arrays.sort(array);
         int counter = N;
         for (int i = N-1; i >= 1; i--)
         {
